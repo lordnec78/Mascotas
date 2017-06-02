@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textTop">230dp</dimen>
+    <dimen name="cardview">23dp</dimen>
+    <dimen name="Left">10dp</dimen>
+    <dimen name="cornerradio">4dp</dimen>
+    <dimen name="espaciado">10dp</dimen>
+    <dimen name="elevationappbar">4dp</dimen>
+    <dimen name="imgtop">230dp</dimen>
+    <dimen name="lay">45dp</dimen>
+
+</resources>

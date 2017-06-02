@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascota"
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="@dimen/cornerradio"
+
+    >
+    <!-- android:layout_marginBottom="@dimen/activity_vertical_margin"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/espaciado"
+        android:orientation="vertical"
+        android:padding="@dimen/Left"
+        >
+
+
+        <ImageView
+            android:id="@+id/imgfoto"
+            android:layout_width="wrap_content"
+            android:layout_height="148dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/masc1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/btnlike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/huesoblanco"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/cvnombre"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:text="@string/pnombre"
+                android:textSize="@dimen/cardview"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+
+                android:layout_weight="0.33" />
+            <TextView
+                android:id="@+id/cvconteo"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:text="0"
+                android:textSize="@dimen/cardview"
+                android:textStyle="bold"
+                android:layout_marginLeft="80dp"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:id="@+id/btnconteo"
+                android:layout_width="wrap_content"
+                android:layout_height="66dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="30dp"
+                android:layout_weight="0.27"
+                android:background="@drawable/huesoamari"
+
+                android:scaleType="fitCenter" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
